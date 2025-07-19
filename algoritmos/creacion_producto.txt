@@ -1,0 +1,40 @@
+- creacion de producto
+
+* Logica
+    Se necesta conocer la stock, el precio, marca, tamano, tipo de producto que se va a ingresar la sistema
+
+* Pseudocodigo
+
+Proceso Creacion_producto
+
+    Definir nombre, marca, tamanio, tipo como cadena
+    Definir precio, stock Como Real
+
+    Escribir "Ingrese el nombre del producto:"
+    Leer nombre
+
+    Escribir "Ingrese el marca del producto:"
+    Leer marca
+
+    Escribir "Ingrese el tamanio del producto:"
+    Leer tamanio
+
+    Escribir "Ingrese el tipo del producto:"
+    Leer tipo
+
+    Escribir "Ingrese el precio del producto:"
+    Leer precio
+
+    Escribir "Ingrese la cantidad en stock:"
+    Leer stock
+
+    Escribir ""
+    Escribir "Producto creado:"
+    Escribir "Nombre: ", nombre
+    Escribir "Marca: ", marca
+    Escribir "tamanio: ", tamanio
+    Escribir "Tipo: ", tipo
+    Escribir "Precio: $", precio
+    Escribir "Stock: ", stock
+
+FinProceso

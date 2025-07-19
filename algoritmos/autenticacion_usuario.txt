@@ -1,0 +1,21 @@
+- Autenticacion usuario
+
+* Logica
+    Necesitamos conocer el email y password del usuario y compararlo para poder iniciar sesion
+
+* Pseudocodigo
+
+Proceso Autenticacion_usuario
+
+    Escribir "Ingrese su email:"
+    Leer email
+    Escribir "Ingrese su contraseña:"
+    Leer clave
+
+    
+    Si email existe Y clave es correcta Entonces
+        Escribir "Acceso concedido"
+    Sino
+        Escribir "Credenciales incorrectas"
+    FinSi
+FinProceso

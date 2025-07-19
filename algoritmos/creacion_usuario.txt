@@ -1,0 +1,17 @@
+- Creacion de usuario
+
+*Logica
+    Necesitamos conocer el email y que establesca una contraseña para poder iniciar sesion.
+
+*Pseudocodigo
+     Proceso creacion_usuario
+        definir email, password, nombre como string
+        
+        escribir "Ingrese su Nombre"
+        leer nombre
+        escribir "Ingrese su email"
+        leer email
+        escribir "Ingrese su contraseña:"
+        leer password
+        
+        escribir "Usuario Registrado"

@@ -1,0 +1,51 @@
+- Compra de carrito
+
+*Logica
+Se necesita conocer el producto que se quieres comprar, la cantidad y el precio del producto elegido para 
+luego continuar con la compra y saber el monto a pagar
+
+*Pseudocodigo
+
+Proceso Compra_carrito
+
+    Definir nombreProducto Como Cadena
+    Definir precio, total, subtotal Como Real
+    Definir cantidad, opcion Como Entero
+
+    total <- 0
+    opcion <- 1
+
+    Mientras opcion = 1 Hacer
+
+        Escribir "Ingrese el nombre del producto:"
+        Leer nombreProducto
+
+        Escribir "Ingrese el precio del producto:"
+        Leer precio
+
+        Escribir "Ingrese la cantidad:"
+        Leer cantidad
+
+        subtotal <- precio * cantidad
+        total <- total + subtotal
+
+        Escribir "Producto agregado al carrito:"
+        Escribir " - ", nombreProducto, " x", cantidad, " = $", subtotal
+
+        Escribir "¿Desea agregar otro producto? (1 = Sí / 0 = No):"
+        Leer opcion
+
+    FinMientras
+
+    Escribir ""
+    Escribir "TOTAL A PAGAR: $", total
+    Escribir "¿Desea confirmar la compra? (1 = Sí / 0 = No):"
+    Leer opcion
+
+    Si opcion = 1 Entonces
+        Escribir "Compra realizada con éxito. ¡Gracias por su compra!"
+    Sino
+        Escribir "Compra cancelada."
+    FinSi
+
+FinProceso
